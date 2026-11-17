@@ -607,6 +607,28 @@
   .ft-cover-meta{color:inherit}
 
 
+  .ft-monopoly-columns{display:grid;grid-template-columns:minmax(0,.94fr) minmax(0,1.06fr);gap:3vw;align-items:center;flex:1;min-height:0;margin-top:.6vh}
+  .ft-monopoly-copy{margin:0;padding-left:1.15em;color:var(--ink);font:400 clamp(14px,1.12vw,20px)/1.42 Inter,"Helvetica Neue",Arial,sans-serif}
+  .ft-monopoly-copy li{padding-left:.25em;margin:0 0 1.7vh}
+  .ft-monopoly-copy li::marker{color:var(--ft-red)}
+  .ft-monopoly-columns .ft-redraw{width:100%;margin:0}
+  .ft-monopoly-columns .ft-redraw svg{max-height:47vh}
+  @media(max-width:900px){.ft-monopoly-columns{grid-template-columns:1fr;gap:1vh;overflow:auto}.ft-monopoly-copy{font-size:clamp(13px,2vw,17px)}.ft-monopoly-copy li{margin-bottom:.8vh}.ft-monopoly-columns .ft-redraw svg{max-height:34vh}}
+  .ft-insurance-columns{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);gap:2.4vw;align-items:center;flex:1;min-height:0;margin-top:.4vh}
+  .ft-insurance-copy{margin:0;padding-left:1.1em;color:var(--ink);font:400 clamp(13px,1vw,18px)/1.34 Inter,"Helvetica Neue",Arial,sans-serif}
+  .ft-insurance-copy>li{padding-left:.2em;margin:0 0 1.1vh}
+  .ft-insurance-copy li::marker{color:var(--ft-red)}
+  .ft-insurance-copy ul{margin:.45vh 0 0;padding-left:1.1em;font-size:.94em}
+  .ft-insurance-copy ul li{padding-left:.12em;margin:.35vh 0}
+  .ft-insurance-columns .ft-redraw{width:100%;margin:0}
+  .ft-insurance-columns .ft-redraw svg{max-height:43vh}
+  @media(max-width:900px){.ft-insurance-columns{grid-template-columns:1fr;gap:1vh;overflow:auto}.ft-insurance-copy{font-size:clamp(12px,1.8vw,16px)}.ft-insurance-copy>li{margin-bottom:.6vh}.ft-insurance-columns .ft-redraw svg{max-height:30vh}}
+  .ft-promo-title{font-size:clamp(32px,4.2vw,62px);max-width:24ch}
+  .ft-promo-columns{display:grid;grid-template-columns:1fr 1fr;gap:3vw;align-items:start;flex:1;min-height:0;margin-top:.6vh}
+  .ft-promo-list{margin:0;padding-left:1.15em;color:var(--ink);font:400 clamp(14px,1.05vw,19px)/1.38 Inter,"Helvetica Neue",Arial,sans-serif}
+  .ft-promo-list li{padding-left:.2em;margin:0 0 1.65vh}
+  .ft-promo-list li::marker{color:var(--ft-red)}
+  @media(max-width:900px){.ft-promo-title{font-size:5vw;max-width:26ch}.ft-promo-columns{grid-template-columns:1fr 1fr;gap:4vw}.ft-promo-list{font-size:clamp(12px,1.75vw,16px)}.ft-promo-list li{margin-bottom:1vh}}
   /* Redrawn source figures, set directly into the editorial slide grid */
   .ft-redraw{width:100%;max-width:1150px;margin:1vh auto 0;min-height:0}
   .ft-redraw svg{display:block;width:100%;height:auto;max-height:55vh;overflow:visible}
@@ -696,19 +718,19 @@
 <section class="slide hero dark" data-slide-id="cover" data-animate="hero">
 <div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 01 / 23</div></div><div class="frame ft-frame ft-cover">
 <div class="ft-kicker" data-anim>INTRODUCTION TO HEALTH ECONOMICS · FALL 2026</div><h1 class="ft-cover-title" data-anim>The market for<br>pharmaceuticals</h1><p class="ft-lead" data-anim>Innovation, market power and the price of medicines</p><div class="ft-cover-rule"></div><div class="ft-cover-meta" data-anim>WU ZENG, MD, PHD &nbsp; · &nbsp; GEORGETOWN UNIVERSITY</div>
-</div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>01</div></div></section>
+</div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>1</div></div></section>
 <section class="slide light" data-slide-id="outline" data-animate="cascade">
 <div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 02 / 23</div></div><div class="frame ft-frame">
 <div class="ft-kicker" data-anim>THE AGENDA</div><h2 class="ft-title" data-anim>Outline of the session</h2><div class="grid-2-6-6 ft-grid" data-anim><div class="ft-card"><b>Health</b>How medicines contribute to health and how patients choose among them.</div><div class="ft-card"><b>Prices</b>How firms set prices, and how insurance changes what patients pay.</div><div class="ft-card"><b>Innovation</b>How research, patents and regulation affect new drug development.</div><div class="ft-card"><b>Cost control</b>How generic competition and public policy limit spending.</div></div>
-</div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>02</div></div></section>
+</div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>2</div></div></section>
 <section class="slide light" data-slide-id="overview" data-animate="cascade">
 <div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 03 / 23</div></div><div class="frame ft-frame">
 <div class="ft-kicker" data-anim>WHY THIS MARKET MATTERS</div><h2 class="ft-title" data-anim>Medicines can preserve health. Their markets attract scrutiny.</h2><p class="ft-lead" data-anim>Drug therapies complement nutrition, sanitation and medical care, while pharmaceutical firms rank among the largest and most profitable businesses in the United States.</p><div class="grid-3 ft-grid" data-anim><div class="ft-card">A product can have major health benefits.</div><div class="ft-card">Patents can limit competition.</div><div class="ft-card">Regulation shapes both research and access.</div></div>
-</div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>03</div></div></section>
+</div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>3</div></div></section>
 <section class="slide light" data-slide-id="market-structure" data-animate="cascade">
 <div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 04 / 23</div></div><div class="frame ft-frame">
 <div class="ft-kicker" data-anim>INDUSTRY STRUCTURE</div><h2 class="ft-title" data-anim>Drug development is a shared enterprise</h2><div class="grid-3 ft-grid" data-anim><div class="ft-card"><b>Public research</b>Government and philanthropy support basic science and knowledge creation.</div><div class="ft-card"><b>Academic research</b>Universities contribute discoveries, expertise and early-stage research.</div><div class="ft-card"><b>Private development</b>Firms bring candidates through testing, approval, production and commercialization.</div></div><p class="ft-note">The US has relied heavily on private initiative and market mechanisms to direct commercial R&D.</p>
-</div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>04</div></div></section>
+</div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>4</div></div></section>
 <section class="slide light" data-slide-id="spending-growth" data-animate="cascade">
 <div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 05 / 23</div></div><div class="frame ft-frame">
 <div class="ft-kicker">PHARMACEUTICAL MARKETS · 1980–2019</div>
@@ -726,11 +748,11 @@
 <text x="1040" y="120" class="label">Worldwide</text><text x="1040" y="196" class="label" fill="#7a9e83">Domestic</text>
 </svg>
 <p class="source-note">Redrawn from the supplied chart. Line positions are approximate; source figure reports billions of 2019 dollars.</p>
-</div></div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>05</div></div></section>
+</div></div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>5</div></div></section>
 <section class="slide light" data-slide-id="largest-firms" data-animate="cascade">
 <div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 06 / 23</div></div><div class="frame ft-frame">
 <div class="ft-kicker" data-anim>GLOBAL PHARMA · FY2025</div><h2 class="ft-title" data-anim>The ten largest drug developers</h2><div class="grid-2-6-6 ft-grid" data-anim style="margin-top:1vh;gap:1.4vh 5vw"><div class="ft-card" style="padding-top:.8vh"><b style="display:inline;font-size:1.2em">01&nbsp; Eli Lilly</b><span style="float:right">$65.18bn</span></div><div class="ft-card" style="padding-top:.8vh"><b style="display:inline;font-size:1.2em">06&nbsp; AstraZeneca</b><span style="float:right">$58.74bn</span></div><div class="ft-card" style="padding-top:.8vh"><b style="display:inline;font-size:1.2em">02&nbsp; Merck &amp; Co.</b><span style="float:right">$65.01bn</span></div><div class="ft-card" style="padding-top:.8vh"><b style="display:inline;font-size:1.2em">07&nbsp; Roche</b><span style="float:right">$57.40bn</span></div><div class="ft-card" style="padding-top:.8vh"><b style="display:inline;font-size:1.2em">03&nbsp; Pfizer</b><span style="float:right">$62.58bn</span></div><div class="ft-card" style="padding-top:.8vh"><b style="display:inline;font-size:1.2em">08&nbsp; Novartis</b><span style="float:right">$56.67bn</span></div><div class="ft-card" style="padding-top:.8vh"><b style="display:inline;font-size:1.2em">04&nbsp; AbbVie</b><span style="float:right">$61.16bn</span></div><div class="ft-card" style="padding-top:.8vh"><b style="display:inline;font-size:1.2em">09&nbsp; Sanofi</b><span style="float:right">$52.73bn</span></div><div class="ft-card" style="padding-top:.8vh"><b style="display:inline;font-size:1.2em">05&nbsp; Johnson &amp; Johnson</b><span style="float:right">$60.40bn</span></div><div class="ft-card" style="padding-top:.8vh"><b style="display:inline;font-size:1.2em">10&nbsp; Bristol Myers Squibb</b><span style="float:right">$48.20bn</span></div></div><p class="ft-note">FY2025 pharmaceutical revenue; non-pharma divisions excluded. <a class="ft-video" target="_blank" rel="noopener" href="https://www.drugdiscoverytrends.com/pharma-50-2026-the-top-spot-in-pharma-rarely-lasts-lilly-is-betting-it-can-change-that/">Source: Pharma 50</a>.</p>
-</div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>06</div></div></section>
+</div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>6</div></div></section>
 <section class="slide light" data-slide-id="international-spending" data-animate="cascade">
 <div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 07 / 23</div></div><div class="frame ft-frame">
 <div class="ft-kicker">OECD · PER-CAPITA SPENDING · PPP-ADJUSTED USD</div>
@@ -761,11 +783,11 @@
 </svg>
 <p class="source-note">Approximate values digitized from the supplied OECD graphic. 2022 or 2023; Australia and Japan: 2021. Figures use purchasing power parity. Source: OECD.</p>
 <p class="source-note">Country codes: US United States · DE Germany · CA Canada · JP Japan · KR Korea · ES Spain · AU Australia · NO Norway · GB United Kingdom · MX Mexico</p>
-</div></div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>07</div></div></section>
+</div></div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>7</div></div></section>
 <section class="slide light" data-slide-id="rd-intensity" data-animate="cascade">
 <div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 08 / 23</div></div><div class="frame ft-frame">
 <div class="ft-kicker" data-anim>RESEARCH & DEVELOPMENT</div><h2 class="ft-title" data-anim>The role of research and development</h2><div class="grid-3 ft-grid" data-anim><div class="ft-card"><b>$500bn+</b>Largest firms’ cumulative R&D spending since 2000.</div><div class="ft-card"><b>$51.2bn</b>R&D spending in 2014 by the cited group of firms.</div><div class="ft-card"><b>17.9%</b>Share of combined sales spent on R&D in 2014.</div></div><p class="ft-body" style="margin-top:3vh">About 75% of global pharmaceutical R&D spending was based in the United States. New products can generate profits, while returns often decline as a product ages.</p><p class="ft-note">Historical figures as reported in course materials.</p>
-</div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>08</div></div></section>
+</div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>8</div></div></section>
 
 <section class="slide light" data-slide-id="fda-drug-development" data-animate="cascade">
 <div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 09 / 23</div></div>
@@ -777,18 +799,14 @@
 <div class="ft-card"><div class="ft-label">03</div><p>Also responsible for food, medical devices, and cosmetics products.</p></div>
 <div class="ft-card"><div class="ft-label">04</div><p>FDA approval does not mean a product is harmless.</p></div>
 </div>
-</div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>09</div></div></section>
+</div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>9</div></div></section>
 
 <section class="slide light" data-slide-id="fda-role" data-animate="cascade">
 <div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 10 / 23</div></div><div class="frame ft-frame">
-<div class="ft-kicker" data-anim>REGULATION</div><h2 class="ft-title" data-anim>New drug application approval</h2><div class="grid-2-6-6 ft-grid" data-anim><div class="ft-card"><b>Evidence</b>Does the proposed use meet standards for safety and effectiveness?</div><div class="ft-card"><b>Information</b>Does product labeling communicate appropriate directions and warnings?</div><div class="ft-card"><b>Quality</b>Can manufacturing preserve identity, strength, quality and purity?</div><div class="ft-card"><b>Scope</b>FDA also regulates food, medical devices and cosmetics.</div></div><p class="ft-note">FDA approval does not mean a product is harmless.</p>
+<div class="ft-kicker" data-anim>REGULATION</div><h2 class="ft-title" data-anim>New drug application approval</h2><div class="grid-2-6-6 ft-grid" data-anim><div class="ft-card"><b>Safety and effectiveness</b>Does the proposed use meet standards for safety and effectiveness?</div><div class="ft-card"><b>Labelling</b>Does product labeling communicate appropriate directions and warnings?</div><div class="ft-card"><b>Manufacturing</b>Can manufacturing preserve identity, strength, quality and purity?</div><div class="ft-card"><b>Scope</b>FDA also regulates food, medical devices and cosmetics.</div></div><p class="ft-note">FDA approval does not mean a product is harmless.</p>
 </div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>10</div></div></section>
-<section class="slide light" data-slide-id="review-decisions" data-animate="cascade">
-<div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 11 / 23</div></div><div class="frame ft-frame">
-<div class="ft-kicker" data-anim>NEW DRUG APPLICATION</div><h2 class="ft-title" data-anim>Safety, labeling and manufacturing</h2><div class="grid-3 ft-grid" data-anim><div class="ft-card"><b>01 · Benefit and risk</b>Whether evidence supports safety and effectiveness for the proposed use.</div><div class="ft-card"><b>02 · Label</b>Whether the proposed package insert is appropriate and complete.</div><div class="ft-card"><b>03 · Production</b>Whether methods and controls can maintain product quality.</div></div>
-</div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>11</div></div></section>
 <section class="slide light" data-slide-id="development-process" data-animate="cascade">
-<div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 12 / 23</div></div><div class="frame ft-frame">
+<div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 11 / 23</div></div><div class="frame ft-frame">
 <div class="ft-kicker">RESEARCH & DEVELOPMENT</div>
 <h2 class="ft-title">Drug development moves through long, distinct stages</h2>
 <div class="ft-redraw">
@@ -801,17 +819,26 @@
 </div>
 <div class="ft-phase-row" aria-label="Clinical trial phases"><div class="ft-phase"><b>PHASE 1 · 1.6 YEARS</b>Testing in healthy subjects.</div><div class="ft-phase"><b>PHASE 2 · 2.9 YEARS</b>Testing in individuals with the disease.</div><div class="ft-phase"><b>PHASE 3 · 3.8 YEARS</b>Larger-scale testing in individuals with the disease.</div></div>
 <p class="source-note">Stage durations are reproduced from the supplied course figure and vary by product.</p>
-</div></div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>12</div></div></section>
+</div></div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>11</div></div></section>
+<section class="slide light" data-slide-id="drug-development-video" data-animate="cascade">
+<div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 12 / 23</div></div><div class="frame ft-frame ft-hero-center">
+<div class="ft-kicker" data-anim>RESEARCH &amp; DEVELOPMENT</div><h2 class="ft-title" data-anim>Drug development stages</h2><iframe class="ft-video" width="500" height="270" src="https://www.youtube.com/embed/3Gl0gAcW8rw" title="Drug discovery and development process" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>12</div></div></section>
 <section class="slide light" data-slide-id="patent-bargain" data-animate="cascade">
 <div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 13 / 23</div></div><div class="frame ft-frame">
-<div class="ft-kicker" data-anim>POLICY TOWARD INNOVATION</div><h2 class="ft-title" data-anim>Exclusivity can support research, and restrict competition</h2><div class="grid-2-6-6 ft-grid" data-anim><div class="ft-card"><b>United States</b>The 1984 Hatch–Waxman Act restored some patent time lost during FDA review and created an abbreviated route for generic applications.</div><div class="ft-card"><b>International rules</b>WTO members provide at least 20 years of patent protection from filing.</div></div><p class="ft-body" style="margin-top:3vh">The policy bargain is between expected returns that may encourage innovation and market power that can raise prices.</p>
+<div class="ft-kicker" data-anim>POLICY TOWARD INNOVATION</div><h2 class="ft-title" data-anim>Exclusivity through patent can support research, and restrict competition</h2><div class="grid-2-6-6 ft-grid" data-anim><div class="ft-card"><b>United States</b>The 1984 Hatch–Waxman Act restored some patent time lost during FDA review and created an abbreviated route for generic applications.</div><div class="ft-card"><b>International rules</b>WTO members provide at least 20 years of patent protection from filing.</div></div><p class="ft-body" style="margin-top:3vh">The policy bargain is between expected returns that may encourage innovation and market power that can raise prices.</p>
 </div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>13</div></div></section>
 <section class="slide light" data-slide-id="monopoly-pricing" data-animate="cascade">
 <div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 14 / 23</div></div><div class="frame ft-frame">
-<div class="ft-kicker">PATENTS & MARKET POWER</div>
+<div class="ft-kicker">PATENTS &amp; MARKET POWER</div>
 <h2 class="ft-title">A monopolist limits output to sustain a higher price</h2>
-<div class="ft-redraw">
-<svg viewBox="0 0 1100 470" role="img" aria-labelledby="monopoly-title monopoly-desc" xmlns="http://www.w3.org/2000/svg">
+<div class="ft-monopoly-columns">
+<ul class="ft-monopoly-copy">
+<li>Patents of drugs distort drug prices, limit treatment options for individuals who do not have the means to pay, and cause American consumers to pay too much for their prescription medicines</li>
+<li>The awarding of a patent provides the innovator with monopoly power – to limit availability and set prices above the marginal cost of production</li>
+<li>The profit-maximizing output occurs where MC equals MR. The monopolist then charges the highest price the market will bear, which is given by the demand curve. If price exceeds average cost a profit will be earned</li>
+</ul>
+<div class="ft-redraw"><svg viewBox="0 0 1100 470" role="img" aria-labelledby="monopoly-title monopoly-desc" xmlns="http://www.w3.org/2000/svg">
 <title id="monopoly-title">Monopoly price and output</title><desc id="monopoly-desc">A downward-sloping demand curve D1 and steeper marginal revenue curve MR cross a horizontal marginal cost and average variable cost line. Marginal revenue meets cost at Q1, while demand at that quantity gives price P1. The demand curve meets cost at Q2.</desc>
 <path class="axis" d="M105 45V390H1010"/><text x="60" y="45" class="label serif">Price</text><text x="1015" y="400" class="label serif">Quantity</text><text x="84" y="414" class="small muted">0</text>
 <path class="gridline" d="M105 135H1010"/><path d="M105 135H1010" stroke="#49637c" stroke-width="4"/><text x="1020" y="141" class="label serif">MC = AVC</text>
@@ -819,15 +846,23 @@
 <path d="M170 70L405 365" stroke="#bf3f32" stroke-width="4" fill="none"/><text x="415" y="365" class="label serif">MR</text>
 <path class="guide" d="M105 75H222V390"/><path class="guide" d="M331 135V390"/>
 <text x="78" y="80" class="label serif">P₁</text><text x="78" y="141" class="label serif">C₁</text><text x="205" y="422" class="label serif">Q₁</text><text x="314" y="422" class="label serif">Q₂</text>
-</svg>
-<p class="source-note">Conceptual diagram; quantities and prices are not to scale. Q₁ is selected where MR = MC; price is read from demand.</p>
+</svg><p class="source-note">Conceptual diagram; quantities and prices are not to scale. Q₁ is selected where MR = MC; price is read from demand.</p></div>
 </div></div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>14</div></div></section>
 <section class="slide light" data-slide-id="insurance-pricing" data-animate="cascade">
 <div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 15 / 23</div></div><div class="frame ft-frame">
-<div class="ft-kicker">INSURANCE & PRICE SETTING</div>
+<div class="ft-kicker">INSURANCE &amp; PRICE SETTING</div>
 <h2 class="ft-title">Insurance shifts demand and can raise the monopoly price</h2>
-<div class="ft-redraw">
-<svg viewBox="0 0 1100 470" role="img" aria-labelledby="insurance-title insurance-desc" xmlns="http://www.w3.org/2000/svg">
+<div class="ft-insurance-columns">
+<ul class="ft-insurance-copy">
+<li>Insurance copayment provisions invite firms with market power to raise their price according to the inverse of the copay</li>
+<li>Insurance shifts demand from D1 to D2 (increases demand)
+<ul><li>User coinsurance rate (c) determines the magnitude of the shift</li><li>100 percent insurance (c = 0) implies the demand curve is vertical</li></ul>
+</li>
+<li>The 50 percent copay results in the monopolist doubling their prices
+<ul><li>Price changes from P1 to P2</li><li>Monopolist could adjust the resulting price-quantity point on the new demand curve by moving from initial quantity only if profits increase</li></ul>
+</li>
+</ul>
+<div class="ft-redraw"><svg viewBox="0 0 1100 470" role="img" aria-labelledby="insurance-title insurance-desc" xmlns="http://www.w3.org/2000/svg">
 <title id="insurance-title">Insurance, demand and monopoly pricing</title><desc id="insurance-desc">The original demand curve D1 shifts outward to D2 when insurance reduces the patient's share of the price. A horizontal marginal cost line intersects the original marginal revenue near Q1. Dashed guides show the original price P1 and a higher price P2 on the shifted demand curve. This is a stylized model.</desc>
 <path class="axis" d="M105 45V390H1010"/><text x="60" y="45" class="label serif">Price</text><text x="1015" y="400" class="label serif">Quantity</text><text x="84" y="414" class="small muted">0</text>
 <path d="M105 300H1010" stroke="#49637c" stroke-width="4"/><text x="900" y="290" class="label serif">MC = AVC</text>
@@ -837,8 +872,7 @@
 <path class="guide" d="M105 233H204V390M105 126H204V390"/>
 <text x="78" y="239" class="label serif">P₁</text><text x="78" y="132" class="label serif">P₂</text><text x="187" y="422" class="label serif">Q₁</text>
 <rect x="720" y="70" width="300" height="112" fill="#fff8f2" stroke="#d8cfc7"/><text x="744" y="101" class="label">50% coinsurance example</text><text x="744" y="129" class="small">Patients face a lower share of price.</text><text x="744" y="151" class="small">Demand shifts outward from D₁ to D₂.</text>
-</svg>
-<p class="source-note">Stylized source model. A higher price is possible under its assumptions; the result is not universal.</p>
+</svg><p class="source-note">Stylized source model. A higher price is possible under its assumptions; the result is not universal.</p></div>
 </div></div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>15</div></div></section>
 <section class="slide light" data-slide-id="promotion-spending" data-animate="cascade">
 <div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 16 / 23</div></div><div class="frame ft-frame">
@@ -846,15 +880,28 @@
 </div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>16</div></div></section>
 <section class="slide light" data-slide-id="promotion-debate" data-animate="cascade">
 <div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 17 / 23</div></div><div class="frame ft-frame">
-<div class="ft-kicker" data-anim>THE PROMOTION DEBATE</div><h2 class="ft-title" data-anim>More awareness can come with more demand</h2><div class="grid-2-6-6 ft-grid" data-anim><div class="ft-card"><b>Possible value</b>Direct-to-consumer advertising may raise awareness and prompt discussions with clinicians.</div><div class="ft-card"><b>Criticism</b>Promotion may motivate consumers without giving balanced information.</div></div><p class="ft-body" style="margin-top:3vh">The prompt reports DTCA spending rose from $791m in 1996 to $6.1bn in 2019. It cites studies with differing views on information, prices and sales.</p><p class="ft-note">Historical estimates and studies as cited in course materials: Moser (2003), Rubin (2003), Jenkins (2000).</p>
+<div class="ft-kicker" data-anim>THE PROMOTION DEBATE</div><h2 class="ft-title ft-promo-title" data-anim>Advertising and Promotion consequences and opinions</h2>
+<div class="ft-promo-columns" data-anim>
+<ul class="ft-promo-list">
+<li>Wholesale price of new drugs three to six times higher than cost of production</li>
+<li>Profits are funneled into advertising and promotion (directed at providers)</li>
+<li>Though most promotion targets physicians, advertising targeting end consumers has grown significantly</li>
+<li>Direct to-consumer advertising (DTCA) rose from $791 million in 1996 to $6.1 billion in 2019</li>
+</ul>
+<ul class="ft-promo-list">
+<li>Critics fear that this promotion motivates without educating consumers</li>
+<li>However, most physicians believe that direct to-consumer advertising informs and educates patients, and the majority of patients believe it increases awareness for new drugs and improves communication with physicians (Moser, 2003)</li>
+<li>Direct to-consumer advertising has no effect on price (Rubin, 2003) but can drastically increase sales (Jenkins, 2000)</li>
+</ul>
+</div>
 </div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>17</div></div></section>
 <section class="slide light" data-slide-id="price-drivers" data-animate="cascade">
-<div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 18 / 23</div></div><div class="frame ft-frame">
-<div class="ft-kicker" data-anim>BEYOND THE FACTORY GATE</div><h2 class="ft-title" data-anim>The price a patient sees reflects a chain of decisions</h2><div class="grid-3 ft-grid" data-anim><div class="ft-card"><b>Market structure</b>Patents, competition and generic entry shape bargaining power.</div><div class="ft-card"><b>Insurance design</b>Coverage, rebates and cost sharing change who pays.</div><div class="ft-card"><b>Distribution</b>Manufacturers, wholesalers, pharmacies and benefit managers influence transactions.</div></div><p class="ft-note">The source prompt includes a Wall Street Journal explainer: <a class="ft-video" target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=aeG2lWxYO_Y">How drug prices work</a>.</p>
+<div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 18 / 23</div></div><div class="frame ft-frame ft-hero-center">
+<div class="ft-kicker" data-anim>PRICING</div><h2 class="ft-title" data-anim>Other factors affecting drug prices</h2><iframe class="ft-video" width="1037" height="583" src="https://www.youtube.com/embed/aeG2lWxYO_Y" title="How Drug Prices Work | WSJ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>18</div></div></section>
 <section class="slide light" data-slide-id="price-controls" data-animate="cascade">
 <div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 19 / 23</div></div><div class="frame ft-frame">
-<div class="ft-kicker" data-anim>PRICE CONTROL POLICIES</div><h2 class="ft-title" data-anim>Policy can act at different points in the market</h2><div class="grid-3 ft-grid" data-anim><div class="ft-card"><b>Set prices</b>Negotiate ceilings or use cost-plus formulas.</div><div class="ft-card"><b>Benchmark</b>Use external reference pricing, as in the cited Germany example.</div><div class="ft-card"><b>Shape competition</b>Promote generic medicines and regulate supply-chain mark-ups.</div><div class="ft-card"><b>Change incentives</b>Adjust taxes on pharmaceutical products.</div><div class="ft-card"><b>Assess value</b>Use health technology assessment to inform coverage and price decisions.</div></div><p class="ft-note">Examples in the source material include UK mark-up regulation and Canadian negotiated prices.</p>
+<div class="ft-kicker" data-anim>PRICE CONTROL POLICIES</div><h2 class="ft-title" data-anim>Common pricing control policies</h2><div class="grid-3 ft-grid" data-anim><div class="ft-card"><b>Set prices</b>Negotiate ceilings or use cost-plus formulas.</div><div class="ft-card"><b>Benchmark</b>Use external reference pricing, as in the cited Germany example.</div><div class="ft-card"><b>Shape competition</b>Promote generic medicines and regulate supply-chain mark-ups.</div><div class="ft-card"><b>Change incentives</b>Adjust taxes on pharmaceutical products.</div><div class="ft-card"><b>Assess value</b>Use health technology assessment to inform coverage and price decisions.</div></div><p class="ft-note">Examples in the source material include UK mark-up regulation and Canadian negotiated prices.</p>
 </div><div class="foot ft-foot"><div>THE MARKET FOR PHARMACEUTICALS &nbsp;·&nbsp; FALL 2026</div><div>19</div></div></section>
 <section class="slide light" data-slide-id="relative-prices" data-animate="cascade">
 <div class="chrome ft-chrome"><div><strong>GLOH 2260</strong> &nbsp;·&nbsp; Introduction to Health Economics</div><div>Session 11 &nbsp;·&nbsp; 20 / 23</div></div><div class="frame ft-frame">
@@ -1017,18 +1064,6 @@ const SPEAKER_NOTES = [
     "transition": "Move from this point to the next part of the pharmaceutical market."
   },
   {
-    "id": "review-decisions",
-    "title": "FDA reviewers assess three core dimensions",
-    "section": "DEVELOPMENT",
-    "purpose": "Make the reviewer’s core decisions memorable.",
-    "talk": [
-      "FDA reviewers assess three core dimensions",
-      "Use the slide as a prompt to explain the relevant market mechanism.",
-      "Connect the point to incentives, access or policy."
-    ],
-    "transition": "Move from this point to the next part of the pharmaceutical market."
-  },
-  {
     "id": "development-process",
     "title": "Development moves from discovery toward approval",
     "section": "DEVELOPMENT",
@@ -1039,6 +1074,16 @@ const SPEAKER_NOTES = [
       "Connect the point to incentives, access or policy."
     ],
     "transition": "Move from this point to the next part of the pharmaceutical market."
+  },
+  {
+    "id": "drug-development-video",
+    "title": "Drug development stages",
+    "section": "DEVELOPMENT",
+    "purpose": "Show a video overview of the drug discovery and development process.",
+    "talk": [
+      "Use the video to introduce the stages from discovery through approval."
+    ],
+    "transition": "Connect the development process to incentives for pharmaceutical innovation."
   },
   {
     "id": "patent-bargain",
@@ -1090,35 +1135,34 @@ const SPEAKER_NOTES = [
   },
   {
     "id": "promotion-debate",
-    "title": "Advertising may inform patients and stimulate demand",
+    "title": "Advertising and Promotion consequences and opinions",
     "section": "PROMOTION",
     "purpose": "Present the competing claims about direct-to-consumer promotion.",
     "talk": [
-      "Advertising may inform patients and stimulate demand",
-      "Use the slide as a prompt to explain the relevant market mechanism.",
-      "Connect the point to incentives, access or policy."
+      "Wholesale prices may exceed production costs, while profits also fund advertising and promotion.",
+      "Compare promotion aimed at providers with growing direct-to-consumer advertising.",
+      "Discuss the competing views on whether DTCA educates patients, affects prices or increases sales.",
+      "Cited studies: Moser (2003), Rubin (2003) and Jenkins (2000)."
     ],
     "transition": "Move from this point to the next part of the pharmaceutical market."
   },
   {
     "id": "price-drivers",
-    "title": "Drug prices reflect more than manufacturing cost",
+    "title": "Other factors affecting drug prices",
     "section": "PRICING",
-    "purpose": "Introduce the multiple actors between production and patient payment.",
+    "purpose": "Show a video explainer on factors that shape drug prices.",
     "talk": [
-      "Drug prices reflect more than manufacturing cost",
-      "Use the slide as a prompt to explain the relevant market mechanism.",
-      "Connect the point to incentives, access or policy."
+      "Use the Wall Street Journal video to introduce other factors affecting drug prices."
     ],
     "transition": "Move from this point to the next part of the pharmaceutical market."
   },
   {
     "id": "price-controls",
-    "title": "Governments use several tools to contain prices",
+    "title": "Common pricing control policies",
     "section": "POLICY",
     "purpose": "Survey the policy options in the course prompt.",
     "talk": [
-      "Governments use several tools to contain prices",
+      "Common pricing control policies",
       "Use the slide as a prompt to explain the relevant market mechanism.",
       "Connect the point to incentives, access or policy."
     ],
